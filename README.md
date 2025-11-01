@@ -8,8 +8,9 @@ This is a statistical computing assignment to be submitted in fulfillment of the
 I will briefly explain the problem my project solves or the motivation behind it.
 
 ### ✨ Features
-- ✅ Feature 1
+- ✅ I have shared different documents for practice
 - ⚡ Feature 2
 - 🔒 Feature 3
 
 ---
+## 🖼️ Screenshots
