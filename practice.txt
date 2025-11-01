@@ -1,0 +1,63 @@
+
+Git commands
+🧭 Basic Git Commands
+| Command                   | Description                                                                                     |
+| ------------------------- | ----------------------------------------------------------------------------------------------- |
+| `git init`                | Initializes a new Git repository in the current directory. Creates a hidden `.git` folder.      |
+| `git clone <repo_url>`    | Copies (clones) an existing remote repository to your local machine.                            |
+| `git status`              | Shows the status of files in your working directory — which are staged, modified, or untracked. |
+| `git add <file>`          | Adds a specific file to the staging area (prepares it for commit).                              |
+| `git add .`               | Adds **all** modified/untracked files in the current directory to the staging area.             |
+| `git commit -m "message"` | Records changes in the repository with a descriptive commit message.                            |
+| `git log`                 | Displays the commit history with details like author, date, and commit message.                 |
+| `git diff`                | Shows the differences between your working directory and the staged/committed files.            |
+
+🌿 Branching and Merging
+| Command                         | Description                                                                       |
+| ------------------------------- | --------------------------------------------------------------------------------- |
+| `git branch`                    | Lists all branches in the repository. The current branch is highlighted with `*`. |
+| `git branch <branch_name>`      | Creates a new branch.                                                             |
+| `git checkout <branch_name>`    | Switches to the specified branch.                                                 |
+| `git checkout -b <branch_name>` | Creates and switches to a new branch in one command.                              |
+| `git merge <branch_name>`       | Merges changes from the specified branch into the current branch.                 |
+| `git branch -d <branch_name>`   | Deletes a branch (if it has been merged).                                         |
+| `git branch -D <branch_name>`   | Force deletes a branch (even if not merged).                                      |
+
+🌍 Remote Repository Commands
+| Command                            | Description                                                               |
+| ---------------------------------- | ------------------------------------------------------------------------- |
+| `git remote -v`                    | Lists remote repositories linked to your local repo.                      |
+| `git remote add origin <repo_url>` | Connects your local repo to a remote repository.                          |
+| `git push -u origin <branch_name>` | Pushes local branch commits to the remote repo (sets upstream).           |
+| `git push`                         | Pushes committed changes to the remote repository.                        |
+| `git pull`                         | Fetches and merges changes from the remote repo into your local branch.   |
+| `git fetch`                        | Downloads changes from the remote repository but does **not** merge them. |
+
+🧹 Undoing Changes
+| Command                       | Description                                                                      |
+| ----------------------------- | -------------------------------------------------------------------------------- |
+| `git restore <file>`          | Discards changes in a working directory file (restores to last commit).          |
+| `git restore --staged <file>` | Removes a file from the staging area but keeps changes in the working directory. |
+| `git reset <file>`            | Unstages a file (similar to `git restore --staged`).                             |
+| `git reset --hard`            | Discards all local changes and resets to the last commit. **Use carefully!**     |
+| `git revert <commit_id>`      | Creates a new commit that undoes changes made in a specific commit.              |
+
+
+📜 Viewing and Inspecting
+| Command                                | Description                                        |
+| -------------------------------------- | -------------------------------------------------- |
+| `git show <commit_id>`                 | Displays details and changes of a specific commit. |
+| `git log --oneline`                    | Shows a condensed, one-line-per-commit history.    |
+| `git log --graph --oneline --decorate` | Displays a visual graph of branches and commits.   |
+| `git blame <file>`                     | Shows who made changes to each line of a file.     |
+| `git tag`                              | Lists all tags (useful for marking releases).      |
+
+
+
+
+
+
+
+
+
+
