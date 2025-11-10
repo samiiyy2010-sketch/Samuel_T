@@ -14,3 +14,5 @@ I will briefly explain the problem my project solves or the motivation behind it
 
 ---
 ## 🖼️ Screenshots
+<img width="929" height="375" alt="image" src="https://github.com/user-attachments/assets/d8e27d1a-d498-4f73-9f09-cfee540a9b9e" />
+
